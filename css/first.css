@@ -7,6 +7,11 @@
     font-size: 25px;
 }
 
+.sections h1 {
+    font-size: 85px;
+    margin-bottom: 60px;
+}
+
 #main-header {
     font-size: 75px;
 }
