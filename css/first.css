@@ -1,9 +1,9 @@
 .jumbotron {
-    background-image: url('../img/Economy-and-tech.jpg');
+    background-image: url('../img/jumbutrong-img.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    color: whitesmoke;
+
     font-size: 25px;
 }
 
@@ -14,5 +14,5 @@
 #header-p {
     font-size: 25px;
     font-weight: bolder;
-    text-shadow: 4px 4px black;
+    text-shadow: 1px 1px grey;
 }
