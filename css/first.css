@@ -6,6 +6,10 @@
     font-size: 25px;
 }
 
+.formacion-txt {
+    font-size: 18px;
+}
+
 .sections h1 {
     font-size: 85px;
 }
@@ -48,4 +52,9 @@
 
 #unicaribe-logo {
     width: 95%;
+}
+
+.rnd-img {
+    border-radius: 50%;
+    width: 50%;
 }
