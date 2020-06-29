@@ -1,6 +1,7 @@
 <html lang='es'> 
     <head>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/26e2cb5963.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="css/first.css">
         <link rel="stylesheet" href="css/footer.css">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -18,13 +19,13 @@
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Proyectos <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">Proyectos <i class="fas fa-briefcase"></i><span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Formación</a>
+              <a class="nav-link" href="#">Formación <i class="fas fa-user-tie"></i></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link" href="#">Contacto <i class="far fa-comment-alt"></i></a>
             </li>
           </ul>
           <span class="navbar-text">
@@ -37,10 +38,10 @@
         <p class="lead" id="header-p">Soy un apasionado por la tecnología y un explorador de Python. Tengo un particular interés en la economía, el comercio y los negocios.</p>
         <hr class="my-4">
         <p id="header-p">Considero que por medio de la Economía y la Tecnología se pueden lograr cambios trascendentes!</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Mail</a>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Github</a>
-        <a class="btn btn-primary btn-lg" href="#" role="button">LinkedIn</a>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Twitter</a>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Mail <i class="fas fa-envelope"></i></a>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Github <i class="fab fa-github"></i></a>
+        <a class="btn btn-primary btn-lg" href="#" role="button">LinkedIn <i class="fab fa-linkedin"></i></a>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Twitter <i class="fab fa-twitter"></i></a>
       </div>
       <div class="container text-center sections">
         <h1>Proyectos</h1>
@@ -53,7 +54,7 @@
               <div class="card-body">
                 <h5 class="card-title">Intrade MX (Pronto...)</h5>
                 <p class="card-text">Consulta y grafica las Exportaciones/Importaciones de México por año de los datos abiertos del INEGI</p>
-                <a href="#" class="btn btn-primary">Github  </a>
+                <a href="#" class="btn btn-primary">Github <i class="fab fa-github"></i> </a>
               </div>
             </div>
           <div class="card" style="width: 18rem;">
@@ -70,7 +71,7 @@
               <h5 class="card-title">MX Market (Pronto...)</h5>
               <p class="card-text">Colección de los principales indicadores financieros de México</p>
               <br> 
-              <a href="#" class="btn btn-primary">MX Market  </a>
+              <a href="#" class="btn btn-primary">Github <i class="fab fa-github"></i> </a>
             </div>
           </div>
         </div>
@@ -155,11 +156,11 @@
                 
                 <p class="text-left">Estoy estudiando Negocios Internacionales:</p>
                 <ul id='topics-list'>
-                  <li>Economia</li>
-                  <li>Comercio</li>
-                  <li>Derecho</li>
-                  <li>Finanzas</li>
-                  <li>Negocios</li>
+                  <li>Economia <i class="fas fa-dollar-sign"></i></li>
+                  <li>Comercio <i class="fas fa-exchange-alt"></i></li>
+                  <li>Derecho <i class="fas fa-gavel"></i></li>
+                  <li>Finanzas <i class="fas fa-chart-line"></i></li>
+                  <li>Negocios <i class="fas fa-building"></i></li>
                   <br>
                   <br>
                 </ul>  
@@ -174,7 +175,7 @@
             <br>
             <hr class="solid">
             <br>
-            <h1>Dejame un Mensaje!</h1>
+            <h1>Dejame un Mensaje! <i class="fas fa-paper-plane"></i></h1>
 
 
 
@@ -184,15 +185,15 @@
                 
                 <form class="text-left">
                   <div class="form-group">
-                    <label for="exampleFormControlInput1">Email</label>
+                    <label for="exampleFormControlInput1">Email <i class="fas fa-at"></i></label>
                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
                   </div>
                   <div class="form-group">
-                    <label for="exampleFormControlInput1">Nombre</label>
+                    <label for="exampleFormControlInput1">Nombre <i class="fas fa-user-alt"></i></label>
                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Santiago Sánchez">
                   </div>
                   <div class="form-group">
-                    <label for="exampleFormControlInput1">Telefono</label>
+                    <label for="exampleFormControlInput1">Telefono <i class="fas fa-phone"></i></label>
                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="01800">
                   </div>
               </div>
@@ -203,6 +204,9 @@
                   <label for="exampleFormControlTextarea1">Dejame un Mensaje!</label>
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="9" placeholder="Hola Santiago!"></textarea>
                 </div>
+
+                <button type="button" class="btn btn-primary btn-lg">Enviar! <i class="far fa-paper-plane"></i></button>
+
               </form>
               <br>
             </div>    
@@ -210,6 +214,17 @@
 
 
           </div>
-
+          <footer class="bg-dark text-white mt-4">
+            <div class="container-fluid py-3">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h5>Always learning, always improving <i class="far fa-heart"></i></h5></div>
+                    
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center small align-self-end">Santiago Sánchez 2020 </div>
+                </div>
+            </div>
+          </footer>
     </body>
 </html>
